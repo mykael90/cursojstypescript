@@ -8,7 +8,8 @@ const animal = {
   idade: 10,
 };
 
-const vacinas = obterChave(animal, 'vacinas');
+const vacinas = obterChave(animal, 'cor');
+
 const cor = obterChave(animal, 'cor');
 
 console.log(vacinas, cor, obterChave(animal, 'idade'));

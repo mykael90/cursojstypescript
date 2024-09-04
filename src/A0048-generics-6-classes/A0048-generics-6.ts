@@ -4,6 +4,7 @@ export class Pessoa<T, U> {
 
 export class Pilha<T> {
   private contador = 0;
+  // define um tipo de objeto ondes os tipos das chaves serão numéricos e o valor de cada chave será do tipo T
   private elementos: { [k: number]: T } = {};
 
   push(elemento: T): void {

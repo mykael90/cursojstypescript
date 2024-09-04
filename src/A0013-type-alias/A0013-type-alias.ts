@@ -9,6 +9,8 @@ type CorRGB = 'Vermelho' | 'Verde' | 'Azul'; // OR
 type CorCMYK = 'Ciano' | 'Magenta' | 'Amarelo' | 'Preto';
 type CorPreferida = CorRGB | CorCMYK;
 
+type novaIdade = Pessoa['idade']; // number
+
 const pessoa: Pessoa = {
   idade: 30,
   nome: 'Luiz',
