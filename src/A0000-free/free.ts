@@ -54,3 +54,11 @@ const myIdentity4: IdentityType3<number[]> = identity;
 
 //agora chama a função com o array de number, se colocar o array com outro tipo não vai funcionar
 console.log(myIdentity4([1, 2, 3]));
+
+//funcao com rest operator
+function funcao10(...args: any[]) {
+  console.log(args);
+}
+
+funcao10(1, 2, 3, 4, 'a', 'b');
+funcao10(...[1, 2, 3, 4, 'a', 'b']);
